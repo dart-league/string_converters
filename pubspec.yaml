@@ -1,0 +1,15 @@
+name: string_converters
+version: 1.0.0
+authors:
+  - Luis Vargas <luisvargastijerino@gmail.com>
+  - Hannes Rammer <Hannes.Rammer@gmail.com>
+description: >
+  Converts strings via: toVarName(x), toLowerCamelCase(x), toClassName(x),
+  toUpperCamelCase(x), toConstName(x),
+  toUpperCaseWith(x,"_")\, toTableName(x), toLowerCaseWith(x,"_"),
+  toPolyName(x), toLowerCaseWith(x,"-")
+homepage: https://github.com/dart-league/string_converters
+environment:
+  sdk: '>=2.0.0-dev <3.0.0'
+dev_dependencies:
+  test: ^1.0.0
